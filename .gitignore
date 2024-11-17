@@ -1,3 +1,4 @@
+# General project files
 HELP.md
 .gradle
 !gradle/wrapper/gradle-wrapper.jar
@@ -34,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Add build folders to Git, making sure to include them in the main source directories
+# Ensuring the build folders in the root and module-specific ones are tracked
+!build/
+!*/build/
